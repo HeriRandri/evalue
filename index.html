@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+ <!-- <div class="container-fluid">
+    <div class="vide-one"></div>
+    <div class="header-page">
+    <div class="cards-one">
+        <div class="img-persone">
+          <div class="sous-cards-one">
+            <img src="images/image-jeremy.png" alt="" srcset="">
+            <h3 class="report-jeremy">Report for</h3>
+            <h2 class="nom-jeremy">Jeremy Robson</h2>
+          </div>
+          <div class="semaine">
+            <p class="daily">Daily</p>
+            <p class="daily">Weekly</p>
+            <p class="daily">Monthly</p>
+          </div>
+        </div>
+    </div>
+   <div class="card2">
+          <div class="img-haut1">
+            <svg width="79" height="79" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m18.687 10.43 15.464 30.906c.31.682.743 1.322 1.3 1.88.558.557 1.198.99 1.714 1.217L68.237 59.98 52.484 75.732a8.025 8.025 0 0 1-11.355 0L2.934 37.538a8.025 8.025 0 0 1 0-11.356L18.687 10.43Zm19.345-7.99 10.839 10.838 2.065-2.064a5.845 5.845 0 0 1 8.258 0l8.258 8.259a5.845 5.845 0 0 1 0 8.258l-2.064 2.064 10.839 10.84a8.025 8.025 0 0 1 0 11.355l-4.728 4.728L39.126 40.53a1.963 1.963 0 0 1-.578-.413 1.963 1.963 0 0 1-.413-.578L21.95 7.168l4.728-4.728a8.025 8.025 0 0 1 11.355 0Zm17.033 12.903-2.064 2.065 8.258 8.258 2.064-2.064-8.258-8.259Z"
+                fill="#D96C47" fill-rule="nonzero" />
+            </svg>          </div>
+          <div class="sous-card3">
+            <div class="flex-one">
+              <p class="work">Work</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-two">
+              <h1 class="hours">32hrs</h1>
+              <p class="last-weeks">Last Weeks-36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="img-haut2">
+            <svg width="76" height="77" xmlns="http://www.w3.org/2000/svg"><path d="m60.91 71.846 12.314-19.892c3.317-5.36 3.78-13.818-2.31-19.908l-26.36-26.36c-4.457-4.457-12.586-6.843-19.908-2.31L4.753 15.69c-5.4 3.343-6.275 10.854-1.779 15.35a7.773 7.773 0 0 0 7.346 2.035l7.783-1.945a3.947 3.947 0 0 1 3.731 1.033l22.602 22.602c.97.97 1.367 2.4 1.033 3.732l-1.945 7.782a7.775 7.775 0 0 0 2.037 7.349c4.49 4.49 12.003 3.624 15.349-1.782Zm-24.227-46.12-1.891-1.892-1.892 1.892a2.342 2.342 0 0 1-3.312-3.312l1.892-1.892-1.892-1.891a2.342 2.342 0 0 1 3.312-3.312l1.892 1.891 1.891-1.891a2.342 2.342 0 0 1 3.312 3.312l-1.891 1.891 1.891 1.892a2.342 2.342 0 0 1-3.312 3.312Zm14.19 14.19a2.343 2.343 0 1 1 3.315-3.312 2.343 2.343 0 0 1-3.314 3.312Zm0 7.096a2.343 2.343 0 0 1 3.313-3.312 2.343 2.343 0 0 1-3.312 3.312Zm7.096-7.095a2.343 2.343 0 1 1 3.312 0 2.343 2.343 0 0 1-3.312 0Zm0 7.095a2.343 2.343 0 0 1 3.312-3.312 2.343 2.343 0 0 1-3.312 3.312Z" fill="#3F9CBB" fill-rule="nonzero"/></svg>          </div>
+          <div class="sous-card3">
+            <div class="flex-one">
+              <p class="work">Play</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-two">
+              <h1 class="hours">10hrs</h1>
+              <p class="last-weeks">Last Weeks-8hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="img-haut3">
+            <svg width="79" height="79" xmlns="http://www.w3.org/2000/svg"><path d="M33.227 1.495a1.87 1.87 0 0 1 2.646 0l1.323 1.323-27.78 27.78c-2.189 2.189-2.1 5.837.088 8.026l12.132 12.132a5.624 5.624 0 0 0 1.096 6.388 5.624 5.624 0 0 0 6.389 1.097l12.132 12.132c2.188 2.188 5.837 2.276 8.025.088l27.78-27.78 1.323 1.322a1.87 1.87 0 0 1 0 2.646L46.632 78.4a1.87 1.87 0 0 1-2.645 0L29.12 63.531a5.624 5.624 0 0 1-6.389-1.097l-5.291-5.291a5.624 5.624 0 0 1-1.097-6.388L1.478 35.89a1.87 1.87 0 0 1 0-2.646ZM59.74 22.783c1.948.27 3.83 1.117 5.325 2.612l10.583 10.583a1.87 1.87 0 0 1 0 2.646L46.544 67.727a1.87 1.87 0 0 1-2.646 0L30.67 54.498a1.872 1.872 0 0 0-2.646 0ZM49.19 6.875a1.87 1.87 0 0 1 2.647 0c4.489 4.489 5.877 8.98 6.178 12.342L27.67 49.56c.349-1.527 1.181-7.463-4.938-13.582a1.87 1.87 0 0 1 0-2.646Zm-7.936-2.646a1.87 1.87 0 0 1 2.645 0l1.323 1.323-25.134 25.134a5.619 5.619 0 0 0 0 7.938c4.005 4.005 4.2 7.696 4.043 9.335L12.15 35.978a1.87 1.87 0 0 1 0-2.646Z" fill="#F04667" fill-rule="nonzero"/></svg>          </div>
+          <div class="sous-card3">
+            <div class="flex-one">
+              <p class="work">study</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-two">
+              <h1 class="hours">4hrs</h1>
+              <p class="last-weeks">Last Weeks-7hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="img-haut2">
+            <svg width="76" height="77" xmlns="http://www.w3.org/2000/svg"><path d="m60.91 71.846 12.314-19.892c3.317-5.36 3.78-13.818-2.31-19.908l-26.36-26.36c-4.457-4.457-12.586-6.843-19.908-2.31L4.753 15.69c-5.4 3.343-6.275 10.854-1.779 15.35a7.773 7.773 0 0 0 7.346 2.035l7.783-1.945a3.947 3.947 0 0 1 3.731 1.033l22.602 22.602c.97.97 1.367 2.4 1.033 3.732l-1.945 7.782a7.775 7.775 0 0 0 2.037 7.349c4.49 4.49 12.003 3.624 15.349-1.782Zm-24.227-46.12-1.891-1.892-1.892 1.892a2.342 2.342 0 0 1-3.312-3.312l1.892-1.892-1.892-1.891a2.342 2.342 0 0 1 3.312-3.312l1.892 1.891 1.891-1.891a2.342 2.342 0 0 1 3.312 3.312l-1.891 1.891 1.891 1.892a2.342 2.342 0 0 1-3.312 3.312Zm14.19 14.19a2.343 2.343 0 1 1 3.315-3.312 2.343 2.343 0 0 1-3.314 3.312Zm0 7.096a2.343 2.343 0 0 1 3.313-3.312 2.343 2.343 0 0 1-3.312 3.312Zm7.096-7.095a2.343 2.343 0 1 1 3.312 0 2.343 2.343 0 0 1-3.312 0Zm0 7.095a2.343 2.343 0 0 1 3.312-3.312 2.343 2.343 0 0 1-3.312 3.312Z" fill="#3F9CBB" fill-rule="nonzero"/></svg>
+          </div>
+          <div class="sous-card3">
+            <div class="flex-one">
+              <p class="work">Play</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-two">
+              <h1 class="hours">1hrs</h1>
+              <p class="last-weeks">Last Weeks-8hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="img-haut2">
+            <svg width="76" height="77" xmlns="http://www.w3.org/2000/svg"><path d="m60.91 71.846 12.314-19.892c3.317-5.36 3.78-13.818-2.31-19.908l-26.36-26.36c-4.457-4.457-12.586-6.843-19.908-2.31L4.753 15.69c-5.4 3.343-6.275 10.854-1.779 15.35a7.773 7.773 0 0 0 7.346 2.035l7.783-1.945a3.947 3.947 0 0 1 3.731 1.033l22.602 22.602c.97.97 1.367 2.4 1.033 3.732l-1.945 7.782a7.775 7.775 0 0 0 2.037 7.349c4.49 4.49 12.003 3.624 15.349-1.782Zm-24.227-46.12-1.891-1.892-1.892 1.892a2.342 2.342 0 0 1-3.312-3.312l1.892-1.892-1.892-1.891a2.342 2.342 0 0 1 3.312-3.312l1.892 1.891 1.891-1.891a2.342 2.342 0 0 1 3.312 3.312l-1.891 1.891 1.891 1.892a2.342 2.342 0 0 1-3.312 3.312Zm14.19 14.19a2.343 2.343 0 1 1 3.315-3.312 2.343 2.343 0 0 1-3.314 3.312Zm0 7.096a2.343 2.343 0 0 1 3.313-3.312 2.343 2.343 0 0 1-3.312 3.312Zm7.096-7.095a2.343 2.343 0 1 1 3.312 0 2.343 2.343 0 0 1-3.312 0Zm0 7.095a2.343 2.343 0 0 1 3.312-3.312 2.343 2.343 0 0 1-3.312 3.312Z" fill="#3F9CBB" fill-rule="nonzero"/></svg>
+          </div>
+          <div class="sous-card3">
+            <div class="flex-one">
+              <p class="work">Play</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-two">
+              <h1 class="hours">1hrs</h1>
+              <p class="last-weeks">Last Weeks-8hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="img-haut2">
+            <svg width="76" height="77" xmlns="http://www.w3.org/2000/svg"><path d="m60.91 71.846 12.314-19.892c3.317-5.36 3.78-13.818-2.31-19.908l-26.36-26.36c-4.457-4.457-12.586-6.843-19.908-2.31L4.753 15.69c-5.4 3.343-6.275 10.854-1.779 15.35a7.773 7.773 0 0 0 7.346 2.035l7.783-1.945a3.947 3.947 0 0 1 3.731 1.033l22.602 22.602c.97.97 1.367 2.4 1.033 3.732l-1.945 7.782a7.775 7.775 0 0 0 2.037 7.349c4.49 4.49 12.003 3.624 15.349-1.782Zm-24.227-46.12-1.891-1.892-1.892 1.892a2.342 2.342 0 0 1-3.312-3.312l1.892-1.892-1.892-1.891a2.342 2.342 0 0 1 3.312-3.312l1.892 1.891 1.891-1.891a2.342 2.342 0 0 1 3.312 3.312l-1.891 1.891 1.891 1.892a2.342 2.342 0 0 1-3.312 3.312Zm14.19 14.19a2.343 2.343 0 1 1 3.315-3.312 2.343 2.343 0 0 1-3.314 3.312Zm0 7.096a2.343 2.343 0 0 1 3.313-3.312 2.343 2.343 0 0 1-3.312 3.312Zm7.096-7.095a2.343 2.343 0 1 1 3.312 0 2.343 2.343 0 0 1-3.312 0Zm0 7.095a2.343 2.343 0 0 1 3.312-3.312 2.343 2.343 0 0 1-3.312 3.312Z" fill="#3F9CBB" fill-rule="nonzero"/></svg>
+          </div>
+          <div class="sous-card3">
+            <div class="flex-one">
+              <p class="work">Play</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-two">
+              <h1 class="hours">1hrs</h1>
+              <p class="last-weeks">Last Weeks-8hrs</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="vide-two"></div>-->
+   
+    <div class="header">
+      <div class="container">
+        <div class="card1">
+          <div class="souscard1">
+            <img src="images/image-jeremy.png" alt="">
+            <div class="mlay">
+              <p class="report">Report for</p>
+              <h2 class="nom">Jeremy  Robson</h2>
+            </div>
+          </div>
+          <div class="souscard2">
+            <p id="daily" onclick="myFunction()">Daily</p>
+            <p id="weekly">Weekly</p>
+            <p id="montly">Monthly</p>
+          </div>
+        </div>
+                     <!--Card Numeros 2-->
+        <div class="card2">
+          <div class="card2Haut">
+            <img src="images/icon-work.svg" alt="">
+          </div>
+          <div class="section">
+            <div class="flexPtit">
+              <p class="work">Work</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="bloc1">
+              <h3 id="hours">32 Hrs</h3>
+              <P id="duree">Last Weeks-36hrs</P>
+            </div>
+          </div>
+        </div>
+               <!--Card Numeros 3-->
+        <div class="card3">
+          <div class="card3Haut">
+            <img src="images/icon-play.svg" alt="">
+          </div>
+          <div class="section">
+            <div class="flexPtit">
+              <p class="work">Play</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="bloc1">
+              <h3 class="hours">10 Hrs</h3>
+              <P class="duree">Last Weeks-8hrs</P>
+            </div>
+          </div>
+        </div>
+               <!--Card Numeros 5-->
+        <div class="card5">
+          <div class="card5Haut">
+            <img src="images/icon-study.svg" alt="">
+          </div>
+          <div class="section">
+            <div class="flexPtit">
+              <p class="work">Study</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="bloc1">
+              <h3 class="hours">4 Hrs</h3>
+              <P class="duree">Last Weeks-7hrs</P>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+            <!--Card Numeros 6-->
+      <div class="container1">
+        <div class="card6">
+          <div class="card6Haut">
+            <img src="images/icon-exercise.svg" alt="">
+          </div>
+          <div class="section">
+            <div class="flexPtit">
+              <p class="work">Exercise</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="bloc1">
+              <h3 class="hours">4 Hrs</h3>
+              <P class="duree">Last Weeks-5hrs</P>
+            </div>
+          </div>
+        </div>
+               <!--Card Numeros 7-->
+        <div class="card7">
+          <div class="card7Haut">
+            <img src="images/icon-social.svg" alt="">
+          </div>
+          <div class="section">
+            <div class="flexPtit">
+              <p class="work">Social</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="bloc1">
+              <h3 class="hours">5 Hrs</h3>
+              <P class="duree">Last Weeks-10hrs</P>
+            </div>
+          </div>
+        </div>
+        
+               <!--Card Numeros 7-->
+        <div class="card8">
+          <div class="card8Haut">
+            <img src="images/icon-self-care.svg" alt="">
+          </div>
+          <div class="section">
+            <div class="flexPtit">
+              <p class="work">Self Care</p>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+            </div>
+            <div class="bloc1">
+              <h3 class="hours">2 Hrs</h3>
+              <P class="duree">Last Weeks-2hrs</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        document.getElementById("hours").innerText= "5 Hrs"
+        document.getElementById("duree").innerText= "Last Weeks - 7Hrs"
+      }
+    </script>
+  </body>
+
+</html>

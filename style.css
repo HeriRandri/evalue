@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: hsl(226, 43%, 10%);
+    height: 120vh;
+    font-family: sans-serif;
+
+}
+
+.container{
+   width: 100%;
+   height: 100vh;
+   background-color: hsl(226, 43%, 10%);
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.souscard1{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(246, 80%, 60%);
+    justify-content: start;
+    align-items: start;
+    width: 250px;
+    padding: 10px 20px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 10;
+    color: white;
+}
+
+.report{
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+.nom{
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+.hours{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.souscard2{
+    border-radius: 0 0 10px 10px;
+    height: 140px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: 100px;
+    padding: 40px 20px;
+    color: white;
+
+}
+
+.section:hover{
+ background-color: hsl(235, 45%, 61%);
+}
+
+.souscard1 img{
+    width: 90px;
+    height: 90px;
+   
+}
+
+.souscard2:hover{
+    background-color: hsl(235, 45%, 61%);
+
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    left:437px;
+    gap: 40px;
+}
+
+
+.card2{
+    position: relative;
+    top: 100px;
+}
+
+.section{
+    margin: -4px 0px;
+    height: 100px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.card2Haut{
+    display: block;
+    background-color: hsl(15, 100%, 70%);
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card2Haut img{
+    width: 50px;
+    position: relative;
+    left: 140px;
+}
+
+.flexPtit{
+    padding: 30px 10px;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+
+.bloc1{
+    color: white;
+    padding: 10px 10px;
+}
+
+.duree{
+    padding-top: 10px;
+}
+
+/*   */
+.card3{
+    position: relative;
+    top: 100px;
+}
+
+.section{
+    margin: -4  px 0px;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.card3Haut{
+    display: block;
+    background-color: hsl(195, 74%, 62%);
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card3Haut img{
+    width: 50px;
+    position: relative;
+    left: 140px;
+}
+
+/*  */
+.card5{
+    position: relative;
+    top: 100px;
+}
+
+.section{
+    margin: -4  px 0px;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.card5Haut{
+    display: block;
+    background-color: hsl(348, 100%, 68%);
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card5Haut img{
+    width: 50px;
+    position: relative;
+    left: 140px;
+}
+
+/* */
+
+.card6{
+    position: relative;
+    top: 30px;
+}
+
+.section{
+    margin: -4  px 0px;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.card6Haut{
+    display: block;
+    background-color: hsl(145, 58%, 55%);
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card6Haut img{
+    height: 50px;
+    width: 60px;
+    position: relative;
+    left: 140px;
+}
+
+
+
+/*7*/
+
+.card7{
+    position: relative;
+    top: 30px;
+}
+
+.section{
+    margin: -4  px 0px;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.card7Haut{
+    display: block;
+    background-color:hsl(264, 64%, 52%);
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card7Haut img{
+    width:40px;
+    position: relative;
+    left: 140px;
+}
+
+
+
+
+/*8*/
+
+.card8{
+    position: relative;
+    top: 30px;
+}
+
+.section{
+    margin: -4px 0px;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.card8Haut{
+    display: block;
+    background-color: hsl(43, 84%, 65%);
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card8Haut img{
+    height: 50px;
+    width:40px;
+    position: relative;
+    left: 140px;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 260vh;
+    }
+
+    .card1{
+        width: 100%;
+    }
+
+    .souscard1{
+        justify-content: space-around;
+        height: 130px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mlay{
+    line-height: 1px;
+    }
+
+    .souscard2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bloc1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container{
+        display: block;
+    }
+    
+    .container1{
+        display: block;
+        position: absolute;
+        top: 1080px;
+        left: 0;
+        width: 100%;
+    }
+
+    .card2Haut{
+        display: block;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card2Haut img{
+        width: 50px;
+        position: relative;
+    ;    left: 400px;
+    }
+
+    .card3Haut{
+        display: block;
+        background-color: hsl(195, 74%, 62%);
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card3Haut img{
+        width: 50px;
+        position: relative;
+        left: 400px;
+    }
+
+    .card5Haut{
+        display: block;
+        background-color:  hsl(348, 100%, 68%);
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card5Haut img{
+        width: 50px;
+        position: relative;
+        left: 400px;
+    }
+
+
+    .card6Haut{
+        width: 100%;
+
+    }
+
+
+    .card6Haut img{
+        width: 50px;
+        position: relative;
+    ;    left: 400px;
+    }
+
+    .card7Haut{
+        width: 100%;
+    }
+
+
+
+    .card7Haut img{
+        width: 50px;
+        position: relative;
+    ;    left: 400px;
+    }
+
+     .card7Haut{
+        width: 100%;
+    }
+
+    .card8Haut{
+        width: 100%;
+    }
+
+
+    .card8Haut img{
+        width: 50px;
+        position: relative;
+    ;    left: 400px;
+    }
+ 
+
+
+}
